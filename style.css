@@ -15,6 +15,7 @@ body {
     font-size: 32px;
     background-color: black;
     color: white;
+    display: flex;
 }
 
 .ibm-plex-sans-font {
@@ -36,4 +37,31 @@ body {
 
 .link {
     color: white;
+}
+
+.link-active {
+    margin-left: 8px;
+}
+
+.link-active a {
+    color: white;
+    text-decoration: none;
+}
+
+.link-inactive {
+    margin-left: 8px;
+}
+
+.link-inactive a {
+    color: white;
+}
+
+.nanoblog-post {
+    border-width: 2px;
+    border-color: #333;
+    border-style: solid;
+    border-radius: 16px;
+    width: 90%;
+    height: 10%;
+    padding: 16px;
 }
