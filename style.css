@@ -27,6 +27,7 @@ body {
 
 .serenityos-emoji-font {
     font-family: "SerenityOS Emoji";
+    font-style: normal;
 }
 
 .main-content {
