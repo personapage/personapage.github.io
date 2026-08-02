@@ -13,9 +13,28 @@
         </div>
         <div class="main-content ibm-plex-sans-font">
             <h3>introduction <i class="serenityos-emoji-font">🌈</i></h3>
-            hey <i class="serenityos-emoji-font">👋</i>, i'm alto! i go by <a class="link" href="https://en.wikipedia.org/wiki/He_(pronoun)">he/him</a> but you can use any pronouns.
+            hey <i class="serenityos-emoji-font">👋</i>, i'm alto! i go by <a class="link" href="https://en.wikipedia.org/wiki/He_(pronoun)">he/him</a>, but you can use any pronouns.
             <br>
-            i'm a programmer that likes to do stuff, i'm interested in technology, software, philosophy, geography, history, politics, social studies, music, design, and a lot of other nerdy things
+            i'm a gay man from west asia, and my timezone is UTC+03:00 (currently <span id="current-time"></span>).
+            <br>
+            this is my  little corner of the internet where i share some cool stuff!
+            <h3>about me <i class="serenityos-emoji-font">💟</i></h3>
+            i'm a programmer who loves to learn and explore ideas across many fields, i'm deeply interested in technology, software, geography, history, politics, linguistics, philosophy, social studies, music, design, urbanism and a lot of other nerdy things.
+            i enjoy building things, especially software, and obsessing over every detail of how they're designed and built.
+            i'm fascinated by how civilization and society function, as well as politics, linguistics, cultures and writing systems.
+            my worldview is grounded in human rights, democratic socialism, progressivism, and secular humanism.
         </div>
+        <script>
+            function updateTime() {
+                const now = new Date();
+                const utc3 = new Date(now.getTime() + (3 * 60 * 60 * 1000));
+                const hours = String(utc3.getUTCHours()).padStart(2, "0");
+                const minutes = String(utc3.getUTCMinutes()).padStart(2, "0");
+                document.getElementById("current-time").textContent = `${hours}:${minutes}`;
+            }
+
+            updateTime();
+            setInterval(updateTime, 1000);
+        </script>
     </body>
 </html>
