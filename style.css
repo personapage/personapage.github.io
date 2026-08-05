@@ -9,7 +9,7 @@ body {
     border-bottom: 1px;
     border-color: #333;
     border-bottom-style: solid;
-    width: 100%;
+    width: 98.5%;
     height: 4vh;
     padding: 2.5vh;
     font-size: 3vh;
@@ -34,6 +34,8 @@ body {
     color: white;
     padding: 24px;
     font-size: 24px;
+    min-height: 70vh;
+    width: 98.5%;
 }
 
 .link {
@@ -65,4 +67,23 @@ body {
     width: 90%;
     height: 10%;
     padding: 16px;
+}
+
+.footer {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #333;
+    color: white;
+    padding: 16px;
+    background-color: black;
+}
+
+.social-media-icons {
+    margin-left: 12px;
+}
+
+.social-media-icons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
 }
