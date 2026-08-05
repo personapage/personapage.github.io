@@ -17,6 +17,7 @@ body {
     color: white;
     display: flex;
     position: sticky;
+    top: 0;
 }
 
 .ibm-plex-sans-font {
@@ -66,7 +67,7 @@ body {
     border-bottom-width: 1px;
     border-bottom-color: #333;
     border-bottom-style: solid;
-    width: 90%;
+    width: 98.5%;
     height: 10%;
     padding: 16px;
     display: flex;
