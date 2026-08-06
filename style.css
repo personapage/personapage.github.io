@@ -29,15 +29,15 @@ body {
 
 .main-content {
     color: white;
-    padding: 24px;
-    font-size: 24px;
+    padding: 2vh;
+    font-size: 2vh;
     min-height: 70vh;
-    width: 98.5%;
+    max-width: 98.5%;
 }
 
 .nanoblogs-container {
     color: white;
-    font-size: 24px;
+    font-size: 2vh;
     min-height: 70vh;
     width: 98.5%;
 }
