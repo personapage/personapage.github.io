@@ -1,0 +1,12 @@
+.duck-house-bg {
+    background-color: rebeccapurple;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+#duck {
+    width: 30vh;
+    height: 30vh;
+}

@@ -3,22 +3,30 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="static/favicon.ico" sizes="any">
-        <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
-        <link rel="apple-touch-icon" href="static/favicon.png" />
-        <link rel="shortcut icon" href="static/favicon.png" />
+        <link rel="icon" type="image/x-icon" href="static/favicons/favicon.ico" sizes="any">
+        <link rel="icon" type="image/png" sizes="32x32" href="static/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="static/favicons/favicon-16x16.png">
+        <link rel="apple-touch-icon" href="static/favicons/favicon.png" />
+        <link rel="shortcut icon" href="static/favicons/favicon.png" />
         <title>persona page - 404</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div class="title-bar ibm-plex-sans-font">
-            <div class="link-inactive"><a href="/">persona page</a></div>
+            <div class="link-active"><a href="/">persona page</a></div>
             <div class="link-inactive"><a href="/nanoblogs">nanoblogs</a></div>
+            <div class="link-inactive"><a href="/quack-game">quack!</a></div>
+            <button class="material-symbols-rounded" id="toggle-sidebar-button" onclick="toggleSidebar()">menu</button>
+        </div>
+        <div id="sidebar" class="ibm-plex-sans-font">
+            <div><a class="link-active-sidebar" href="/">persona page</a></div>
+            <div><a class="link-inactive-sidebar" href="/nanoblogs">nanoblogs</a></div>
+            <div><a class="link-inactive-sidebar" href="/quack-game">quack!</a></div>
         </div>
         <div class="main-content ibm-plex-sans-font">
             <h1>⚠️ 404 - Page not found ⚠️</h1>
             <p>s-sorry, the page you're looking for cannot be found! 💥</p>
         </div>
+        <script src="/sidebar.js"></script>
     </body>
 </html>

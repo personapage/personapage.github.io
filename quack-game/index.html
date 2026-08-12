@@ -8,32 +8,25 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
         <link rel="apple-touch-icon" href="/static/favicons/favicon.png" />
         <link rel="shortcut icon" href="/static/favicons/favicon.png" />
-        <title>persona page - nanoblogs</title>
+        <title>persona page</title>
         <link rel="stylesheet" href="/style.css" />
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div class="title-bar ibm-plex-sans-font">
             <div class="link-inactive"><a href="/">persona page</a></div>
-            <div class="link-active"><a href="/nanoblogs">nanoblogs</a></div>
-            <div class="link-inactive"><a href="/quack-game">quack!</a></div>
+            <div class="link-inactive"><a href="/nanoblogs">nanoblogs</a></div>
+            <div class="link-active"><a href="/quack-game">quack!</a></div>
             <button class="material-symbols-rounded" id="toggle-sidebar-button" onclick="toggleSidebar()">menu</button>
         </div>
         <div id="sidebar" class="ibm-plex-sans-font">
             <div><a class="link-inactive-sidebar" href="/">persona page</a></div>
-            <div><a class="link-active-sidebar" href="/nanoblogs">nanoblogs</a></div>
-            <div><a class="link-inactive-sidebar" href="/quack-game">quack!</a></div>
+            <div><a class="link-inactive-sidebar" href="/nanoblogs">nanoblogs</a></div>
+            <div><a class="link-active-sidebar" href="/quack-game">quack!</a></div>
         </div>
-        <div class="nanoblogs-container ibm-plex-sans-font">
-            <div class="nanoblog-post">
-                <img  class="nanoblog-post-profile-picture" src="../static/pfp.png" alt="" width="50" height="50">
-                <div>
-                    <div class="nanoblog-post-information">
-                        <span>alto 🍉</span>
-                        <span class="nanoblog-post-username">@alto</span>
-                        <span><time class="nanoblog-post-time" datetime="2026-08-05 23:30:00">2026/08/05</time></span>
-                    </div>
-                    <div class="nanoblog-post-content">i really love wikipedia!</div>
-                </div>
+        <div class="main-content ibm-plex-sans-font">
+            <div class="duck-house-bg">
+                <img id="duck" src="assets/duck.png">
             </div>
         </div>
         <div class="footer ibm-plex-sans-font">
@@ -61,7 +54,6 @@
                 </a>
             </div>
         </div>
-        <script src="script.js"></script>
         <script src="/sidebar.js"></script>
     </body>
 </html>
