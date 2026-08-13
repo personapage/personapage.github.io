@@ -1,0 +1,34 @@
+.nanoblogs-container {
+    color: white;
+    font-size: 2vh;
+    min-height: 70vh;
+    width: 98.5%;
+}
+
+.nanoblog-post {
+    border-bottom-width: 1px;
+    border-bottom-color: #333;
+    border-bottom-style: solid;
+    width: 98.5%;
+    min-height: 10%;
+    padding: 16px;
+    display: flex;
+}
+
+.nanoblog-post-username,
+.nanoblog-post-time {
+    color: #999;
+}
+
+.nanoblog-post-profile-picture {
+    margin-right: 16px;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: #333;
+}
+
+.nanoblog-post-information {
+    font-size: 1.8vh;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,109 @@
+.navbar {
+    border-bottom: 1px;
+    border-color: #333;
+    border-bottom-style: solid;
+    min-height: 4vh;
+    padding: 2.5vh;
+    font-size: 3vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.link-inactive:hover,
+.link-active:hover {
+    background-color: #282828;
+}
+
+.link-inactive a:hover {
+    color: white;
+}
+
+.link-inactive,
+.link-active {
+    border-radius: 4.5vh;
+    text-decoration: none;
+    padding: 0 0.75vh;
+    min-height: 4.25vh;
+}
+
+.link-inactive a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.link-active a {
+    color: white;
+    text-decoration: none;
+}
+
+.link-inactive {
+    display: none;
+}
+
+#toggle-sidebar-button {
+    border-style: none;
+    color: white;
+    background-color: black;
+    font-size: 3vh;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .link-inactive {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    #toggle-sidebar-button {
+        display: block;
+    }
+    .title-bar {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.link-inactive-sidebar:hover,
+.link-active-sidebar:hover {
+    background-color: #282828;
+}
+
+.link-inactive-sidebar a:hover {
+    color: white;
+}
+
+.link-inactive-sidebar,
+.link-active-sidebar {
+    border-radius: 4.5vh;
+    text-decoration: none;
+    padding: 0 0.75vh;
+    min-height: 4.25vh;
+}
+
+.link-inactive-sidebar {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.link-active-sidebar {
+    color: white;
+    text-decoration: none;
+}
+
+#sidebar {
+    color: white;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    background-color: black;
+    border-right: 1px solid #333;
+    padding: 2vh;
+    font-size: 3vh;
+    min-width: 20vw;
+    display: none;
+    flex-direction: column;
+}

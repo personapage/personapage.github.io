@@ -7,7 +7,7 @@ function timeAgo(date) {
         { label: "week", seconds: 604800 },
         { label: "day", seconds: 86400 },
         { label: "hour", seconds: 3600 },
-        { label: "min", seconds: 60 }
+        { label: "min", seconds: 60 },
     ];
 
     for (const interval of intervals) {
@@ -19,7 +19,7 @@ function timeAgo(date) {
 }
 
 function updateTimeAgo() {
-    document.querySelectorAll(".nanoblog-post-time").forEach(e => {
+    document.querySelectorAll(".nanoblog-post-time").forEach((e) => {
         e.textContent = timeAgo(new Date(e.dateTime));
     });
 }

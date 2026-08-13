@@ -1,0 +1,25 @@
+.footer {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #333;
+    color: white;
+    padding: 16px;
+    background-color: black;
+}
+
+.social-media-icons img {
+    margin-right: 12px;
+    height: 40px;
+}
+
+.social-media-icons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 3vh;
+}
+
+.copyright-notice {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,42 @@
+.duck-house-bg {
+    background-color: blueviolet;
+    border-radius: 2vh;
+    min-height: 70vh;
+    padding: 2vh;
+}
+
+#duck {
+    width: 30vh;
+    height: 30vh;
+}
+
+#duck-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.food {
+    font-size: 5vh;
+}
+
+.fridge-row {
+    display: flex;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    padding: 1vh;
+}
+
+#duck-house-fridge {
+    background-color: rebeccapurple;
+    color: white;
+    width: 35vh;
+    border-radius: 2vh;
+    margin: 2vh;
+}
